@@ -18,6 +18,3 @@
 ```bash
 npm install
 npm run dev
-```sh
-npm run build
-```
