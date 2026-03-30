@@ -1,42 +1,23 @@
-# my-demo
+# Vue3 博客前端 Demo
 
-This template should help get you started developing with Vue 3 in Vite.
+一个用于面试展示的前端项目，包含登录、文章列表、文章详情、点赞/收藏（乐观更新）等功能。
 
-## Recommended IDE Setup
+## 技术栈
+- Vue 3 + TypeScript
+- Vue Router
+- Showdown（Markdown 渲染）
+- Vite
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 功能亮点
+- 登录/注册（前端模拟）
+- 文章列表（mock 数据）
+- 文章详情（Markdown 内容渲染）
+- 点赞/收藏：**乐观更新**（点击立即更新 UI，模拟请求失败时自动回滚）
 
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+## 运行项目
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
 ```sh
 npm run build
 ```
